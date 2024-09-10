@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist"
+  },
+  "include": ["main.ts"],
+  "references": [
+    {
+      "path": "../lib"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "ncc build main.ts"
+  },
+  "dependencies": {
+    "lib": "*"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}
